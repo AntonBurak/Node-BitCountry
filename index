@@ -1,0 +1,11 @@
+#Install
+wget -q -O bitcountry.sh https://api.nodes.guru/bitcountry.sh && chmod +x bitcountry.sh && sudo /bin/bash bitcountry.sh
+
+#Specify your node name and wait for the installation.
+
+#fter installation you should appear in the explorer https://telemetry.polkadot.io/#/0x91b171bb158e2d3848fa23a9f1c25182fb8e20313b2c1eb49219da7a70ce90c3
+#You can check the logs with the command:
+journalctl -u bitcountryd -f
+
+#Creating a validato
+#To install, go to the website and download the version for your browser:https://polkadot.js.org/extension/
